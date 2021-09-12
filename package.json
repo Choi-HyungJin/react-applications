@@ -1,0 +1,36 @@
+{
+  "name": "react-applications",
+  "version": "1.0.0",
+  "description": "Collection of react application inspired by [app-ideas](https://github.com/florinpop17/app-ideas)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/optimizion/react-applications.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/optimizion/react-applications/issues"
+  },
+  "homepage": "https://github.com/optimizion/react-applications#readme",
+  "devDependencies": {
+    "@babel/preset-env": "^7.15.6",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "eslint": "^7.32.0",
+    "html-webpack-plugin": "^5.3.2",
+    "sass": "^1.39.2",
+    "sass-loader": "^12.1.0",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.0"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
