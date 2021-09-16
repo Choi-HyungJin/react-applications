@@ -48,9 +48,8 @@ const App = class extends React.Component {
   render() {
     return (
       <div className="container">
-        <h1>React Markdown Note 🌙</h1>
-        {/* App component 값 addNoteBox에서 변경하기 */}
-        <AddNoteBox notes={this.state.notes} onAddNote={this.addNote} />
+        <h1>React Note 🌙</h1>
+        <AddNoteBox onAddNote={this.addNote} />
         <Notes
           notes={this.state.notes}
           deleteNote={this.deleteNote}
